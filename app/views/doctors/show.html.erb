@@ -2,7 +2,10 @@
 <% @doctor.appointments.each do |appointment| %>
 <ol>
   <%= link_to appointment.appointment_datetime.strftime("%B %d, %Y at %H:%M"), appointment_path(@appointment) %>
+<<<<<<< HEAD
   <%= link_to appointment.patient.name, patient_path(@patient) %>
+=======
+>>>>>>> 1d5a0de0b9319d6bf5252f84dd652e81ef6430a9
 </ol>
 
 
